@@ -64,7 +64,8 @@ main {
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
 }
 
-.location-box .date {
+.location-box .date,
+.forcast-text {
   color: #fff;
   font-size: 20px;
   font-weight: 300;
@@ -99,4 +100,28 @@ main {
   font-size: 48px;
   font-weight: 700;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+.day {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+.fiveDayTemp {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 900;
+
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+  text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.fiveDay {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
