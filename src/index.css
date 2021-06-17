@@ -116,12 +116,30 @@ main {
 
   text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
   text-align: center;
-  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
 }
 
 .fiveDay {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
+}
+
+.forcast-box {
+  text-align: center;
+  position: relative;
+  display: inline-flex;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding: 15px 25px;
+}
+
+.humidity, .wind {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 900;
+
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+  text-align: center;
 }
